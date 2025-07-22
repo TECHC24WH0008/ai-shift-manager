@@ -91,6 +91,7 @@ git clone https://github.com/TECHC24WH0008/ai-shift-manager.git
 cd ai-shift-manager
 pip install -r requirements.txt
 python main.py
+```
 
 ## ライセンス
 
