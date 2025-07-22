@@ -1,0 +1,4 @@
+pandas
+openpyxl
+tkinter  # 標準のためインストール不要
+scikit-learn  # 簡易AI用
