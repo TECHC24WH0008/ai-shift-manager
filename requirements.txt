@@ -1,0 +1,27 @@
+# === 完全オフライン対応 ===
+# 外部サーバー・インターネット接続不要
+
+# GUI Framework (Python標準ライブラリ)
+# tkinter - 標準搭載のため記載のみ
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Excel file support
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# AI/ML libraries (ローカル実行)
+scikit-learn>=1.0.0
+
+# Visualization (ローカル描画)
+matplotlib>=3.5.0
+
+# Database (Python標準ライブラリ)
+# SQLite - 標準搭載のため追加インストール不要
+
+# === 除外された依存関係 ===
+# Flask - Webサーバー必要のため除外
+# Bootstrap - CDN依存のため除外
+# requests - 外部API呼び出し用のため除外
